@@ -692,6 +692,15 @@ footer .copyright-text {
   100% { right: 100% }
 }
 
+@keyframes backAndForth {
+  0% { transform: translateX(0); }
+  10% { transform: translateX(0); }
+  45% { transform: translateX(calc(-100% + 200px)); }
+  55% { transform: translateX(calc(-100% + 200px)); }
+  90% { transform: translateX(0); }
+  100% { transform: translateX(0); }
+}
+
 /*---------------------------------------
   MOBILE RESPONSIVE              
 -----------------------------------------*/
