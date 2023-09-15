@@ -684,6 +684,18 @@ footer .copyright-text {
   color: #ffffff;
 }
 
+.sect-black-selesai {
+  background: 
+  linear-gradient(
+    rgba(0, 0, 0, 0.8), 
+    rgba(0, 0, 0, 0.8)
+  ),
+    url('../images/homeloanjigsaw_Converted-01.jpg') 50% 0 repeat-y fixed;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  color: #ffffff;
+}
+
 .sect-black-uji {
   background: 
   linear-gradient(
@@ -691,6 +703,45 @@ footer .copyright-text {
     rgba(0, 0, 0, 0.7)
   ),
     url('../images/uji.jpg') 50% 0 repeat-y fixed;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.sect-black-beggar {
+  background: 
+  linear-gradient(
+    rgba(0, 0, 0, 0.7), 
+    rgba(0, 0, 0, 0.7)
+  ),
+    url('../images/beggar.jpg') 50% 0 repeat-y fixed;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.sect-black-kotakumuh {
+  background: 
+  linear-gradient(
+    rgba(0, 0, 0, 0.7), 
+    rgba(0, 0, 0, 0.7)
+  ),
+    url('../images/kota_kumuh.jpg') 50% 0 repeat-y fixed;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.sect-black-dompet {
+  background: 
+  linear-gradient(
+    rgba(0, 0, 0, 0.7), 
+    rgba(0, 0, 0, 0.7)
+  ),
+    url('../images/dompet.jpg') 50% 0 repeat-y fixed;
   padding-top: 100px;
   padding-bottom: 100px;
   color: #ffffff;
@@ -709,6 +760,21 @@ footer .copyright-text {
   color: #ffffff;
   text-align: center;
 }
+
+.sect-black-math {
+  background: 
+  linear-gradient(
+    rgba(0, 0, 0, 0.7), 
+    rgba(0, 0, 0, 0.7)
+  ),
+    url('../images/Math_Flying.gif') 50% 0 repeat-y fixed;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  color: #ffffff;
+  text-align: center;
+}
+
+
 
 .sect-black-market {
   background: 
