@@ -688,7 +688,7 @@
      <div class="container">
           <div class="row">
 
-               <div class="col-md-8 col-sm-8 col-xs-8">
+               <div class="col-md-8 col-sm-8 col-xs-12">
                     <div class="about-info" data-aos="fade-up" data-aos-duration="3000">
                          <!-- <h3>Selayang Pandang</h3> -->
                          <h1>
@@ -697,7 +697,7 @@
                     </div>
                </div>
                
-               <div class="col-md-4 col-sm-4 col-xs-4">
+               <div class="col-md-4 col-sm-4 col-xs-12">
                     <div class="testing" data-aos="flip-up"
                     data-aos-easing="ease-out-cubic"
                     data-aos-duration="2000">
@@ -781,7 +781,7 @@ terbentuknya konvergensi kelompok atau club convergence dalam data percentase pe
      <div class="container">
           <div class="row">
 
-               <div class="col-md-4 col-sm-4 col-xs-4">
+               <div class="col-md-4 col-sm-4 col-xs-12">
                     <div class="testing" data-aos="fade-left"
                     data-aos-easing="ease-out-cubic"
                     data-aos-duration="2000">
@@ -791,7 +791,7 @@ terbentuknya konvergensi kelompok atau club convergence dalam data percentase pe
                     </div>
                </div>
 
-               <div class="col-md-8 col-sm-8 col-xs-8">
+               <div class="col-md-8 col-sm-8 col-xs-12">
                     <div class="about-info" data-aos="fade-right" data-aos-duration="3000">
                          <!-- <h3>Selayang Pandang</h3> -->
                          <h1>
@@ -863,7 +863,7 @@ Secara keseluruhan persentase penduduk miskin di dua warsa ini turun dari 12,65 
      <div class="container">
           <div class="row">
 
-               <div class="col-md-4 col-sm-4 col-xs-4">
+               <div class="col-md-4 col-sm-4 col-xs-12">
                     <div class="testing" data-aos="fade-left"
                     data-aos-easing="ease-out-cubic"
                     data-aos-duration="2000">
@@ -873,7 +873,7 @@ Secara keseluruhan persentase penduduk miskin di dua warsa ini turun dari 12,65 
                     </div>
                </div>
 
-               <div class="col-md-8 col-sm-8 col-xs-8">
+               <div class="col-md-8 col-sm-8 col-xs-12">
                     <div class="about-info" data-aos="fade-up" data-aos-duration="3000">
                          <!-- <h3>Selayang Pandang</h3> -->
                          <h1>
@@ -953,6 +953,33 @@ harapan setelah mengetahuinya kita paham harus dimulai dari mana langkah penangg
                          </h1>
                     </div>
                </div>
+          </div>
+     </div>
+</section>
+
+<section id="part21-hasil" class="parallax-section sect-white">
+     <div class="container">
+          <div class="row">
+
+               <div class="col-md-7 col-sm-7 col-xs-12">
+                    <div class="about-info" data-aos="fade-up" data-aos-duration="3000">
+                         <!-- <h3>Selayang Pandang</h3> -->
+                         <h1>Betapa terkejutnya kami ketika mendapati bahwa posisi regional tidak berpengaruh dalam pengelompokan. 
+                              7 regional yang dimaksud yaitu Sumatera, Kalimantan, Sulawesi, Maluku, Papua, 
+                              Jawa serta Bali dan Nusa Tenggara ternyata tidak menentukan posisi dålam kelompok.</h1>
+                    </div>
+               </div>
+               
+               <div class="col-md-5 col-sm-5 col-xs-12">
+                    <div class="testing" id="mapcontainer3" data-aos="fade-right"
+                    data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000">
+                         
+                    </div>
+               </div>
+
+               
+
           </div>
      </div>
 </section>
@@ -1079,6 +1106,9 @@ var chart = Highcharts.mapChart('mapcontainer', {
       text: 'Group'
     }
   },
+  credits: {
+     enabled: false
+  },
   series: [{
     data: [
      ['id-ac',3],
@@ -1175,7 +1205,13 @@ const icons = {
 // Create the chart
 Highcharts.mapChart('mapcontainer2', {
   chart: {
-    map: 'id-all'
+    map: 'id-all',
+    //backgroundColor: '#f4f4f4' // Change the background color
+  },
+  plotOptions: {
+    map: {
+      color: 'red' // Set the color for all regions
+    }
   },
   title: {
     text: ''
@@ -1183,6 +1219,10 @@ Highcharts.mapChart('mapcontainer2', {
   legend: {
      enabled: false
   },
+  credits: {
+     enabled: false
+  },
+ 
   series: [{
     name: 'Provinces',
     
@@ -1214,6 +1254,154 @@ Highcharts.mapChart('mapcontainer2', {
 // // Set the zoom level to focus on Kalimantan Utara
 // chart.xAxis[0].setExtremes(kalimantanUtaraX - 50, kalimantanUtaraX + 50);
 // chart.yAxis[0].setExtremes(kalimantanUtaraY - 50, kalimantanUtaraY + 50);
+</script>
+
+<script>
+     var data = [
+     ['id-ac',1],
+     ['id-ba',6],
+     ['id-bb',1],
+     ['id-bt',2],
+     ['id-be',1],
+     ['id-go',4],
+     ['id-jk',2],
+     ['id-ja',1],
+     ['id-jr',2],
+     ['id-jt',2],
+     ['id-ji',2],
+     ['id-kb',3],
+     ['id-ks',3],
+     ['id-kt',3],
+     ['id-ki',3],
+     ['id-kr',1],
+     ['id-1024',1],
+     ['id-ma',5],
+     ['id-la',5],
+     ['id-nb',6],
+     ['id-nt',6],
+     ['id-pa',7],
+     ['id-ib',7],
+     ['id-ri',1],
+     ['id-sr',4],
+     ['id-se',4],
+     ['id-st',4],
+     ['id-sg',4],
+     ['id-sw',4],
+     ['id-sb',1],
+     ['id-sl',1],
+     ['id-su',1],
+     ['id-yo',2],
+     ['id-ku',3],
+     // ...
+     ];
+
+// Create the map chart
+var chart3 = Highcharts.mapChart('mapcontainer3', {
+
+     plotOptions: {
+    map: {
+      color: 'brown' // Set the color for all regions
+    }
+  },
+     title: {
+          text: ''
+     },
+     legend: {
+          enabled: false
+     },
+     credits: {
+          enabled: false
+     },
+     series: [{
+          name: 'Provinsi',
+          type: 'map',
+          data: data,
+          mapData: Highcharts.maps['countries/id/id-all'],
+          joinBy: 'hc-key',
+          animation: {
+               duration: 500 // Animation duration in milliseconds
+    },
+    tooltip: {
+      pointFormat: '{point.name}'
+    },
+    states: {
+      hover: {
+        color: 'red' // Highlight color on hover
+      }
+    }
+  }]
+});
+
+// Function to animate the highlighting of groups
+// function animateHighlight() {
+//   var index = 0;
+//   var interval = setInterval(function() {
+//     // Reset color of all groups
+//     chart3.series[0].data.forEach(function(point) {
+//       point.update({
+//         color: null
+//       }, false);
+//     });
+
+//     // Highlight the current group
+//     chart3.series[0].data[index].update({
+//       color: 'yellow'
+//     });
+
+//     index++;
+
+//     // Stop the animation when all groups have been highlighted
+//     if (index >= chart3.series[0].data.length) {
+//       clearInterval(interval);
+//     }
+//   }, 1000); // Delay between each update in milliseconds
+// }
+
+// // Call the animateHighlight function to start the animation
+// animateHighlight();
+
+// Function to animate the highlighting of groups
+function animateHighlight() {
+  var groups = [1, 2, 3, 4, 5, 6, 7]; // Array of groups
+  var index = 0;
+
+  var interval = setInterval(function() {
+    var group = groups[index];
+
+    // Reset color of all regions
+    chart3.series[0].data.forEach(function(point) {
+      point.update({
+        color: null
+      }, false);
+    });
+
+    // Highlight regions of the current group
+    chart3.series[0].data.forEach(function(point) {
+      if (point.value === group) {
+        point.update({
+          color: 'yellow'
+        }, false);
+      }
+    });
+
+    // Redraw the chart after updating colors
+    chart3.redraw();
+
+    index++;
+
+    // Stop the animation when all groups have been highlighted
+//     if (index >= groups.length) {
+//       clearInterval(interval);
+//     }
+     // Reset index and start the animation again
+    if (index >= groups.length) {
+      index = 0;
+    }
+  }, 1000); // Delay between each group highlighting in milliseconds
+}
+
+// Call the animateHighlight function to start the animation
+animateHighlight();
 </script>
 
 <script>
