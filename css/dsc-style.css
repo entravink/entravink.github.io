@@ -1,11 +1,3 @@
-/*
-
-Template 2099 Scenic
-
-http://www.tooplate.com/view/2099-scenic
-
-*/
-
 
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,700');
 
@@ -88,7 +80,7 @@ p {
   font-weight: normal;
   letter-spacing: 0.5px;
   padding: 0 25px;
-  background: #0099ff;
+  background: #9C6644;
   border-radius: 1px;
   -webkit-transition: -webkit-transform 0.3s;
   -moz-transition: -moz-transform 0.3s;
@@ -193,7 +185,7 @@ a:hover, a:active, a:focus {
   background-size: cover !important;
 }
 
-#about, #project,
+#project,
 #team, #part6, footer {
   background: #ffffff;
 }
@@ -261,7 +253,7 @@ a:hover, a:active, a:focus {
 
 .custom-navbar {
   margin-bottom: 0;
-  background-color: #0099ff;
+  background-color: #9C6644;
   padding: 20px 0;
 }
 
@@ -332,7 +324,7 @@ a:hover, a:active, a:focus {
   }
   .custom-navbar.top-nav-collapse {
     /*background: #4dc47d;*/
-    background: #0099ff;
+    background: #9C6644;
     padding: 15px 0;
   }
 }
@@ -400,6 +392,7 @@ a:hover, a:active, a:focus {
 #about {
   padding-top: 200px;
   padding-bottom: 150px;
+  background: #EDE0D4;
 }
 
 .about-info h3 {
@@ -601,8 +594,8 @@ a:hover, a:active, a:focus {
 -----------------------------------------*/
 
 footer {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 10px;
+  padding-bottom: 40px;
 }
 
 footer h4 {
@@ -748,6 +741,45 @@ footer .copyright-text {
   text-align: center;
 }
 
+.sect-black-anak {
+  background: 
+  linear-gradient(
+    rgba(0, 0, 0, 0.5), 
+    rgba(0, 0, 0, 0.5)
+  ),
+    url('../images/anak.jpg') 50% 0 repeat-y fixed;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.sect-black-artist {
+  background: 
+  linear-gradient(
+    rgba(0, 0, 0, 0.7), 
+    rgba(0, 0, 0, 0.7)
+  ),
+    url('../images/artist.jpg') 50% 0 repeat-y fixed;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.sect-black-garbage {
+  background: 
+  linear-gradient(
+    rgba(0, 0, 0, 0.7), 
+    rgba(0, 0, 0, 0.7)
+  ),
+    url('../images/garbage.jpg') 50% 0 repeat-y fixed;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  color: #ffffff;
+  text-align: center;
+}
+
 .sect-black-peta {
   background: 
   linear-gradient(
@@ -796,6 +828,30 @@ footer .copyright-text {
   color: #ffffff;
   text-align: center;
 }
+
+.sect-brown-s8-center {
+  background: #422b1c;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.sect-brown-s2 {
+  background: #E6CCB2;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  color: #000000;
+}
+
+.sect-brown-s3 {
+  background: #DDB892;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  color: #000000;
+}
+
+
 
 .sect-white {
   background: #ffffff;
