@@ -421,8 +421,8 @@ a:hover, a:active, a:focus {
 }
 
 .about-info h3 {
-  font-size: 14px;
-  letter-spacing: 12px;
+  font-size: 30px;
+  letter-spacing: 20px;
   text-transform: uppercase;
   margin: 0;
 }
@@ -726,6 +726,7 @@ footer .copyright-text {
   color: #ffffff;
   text-align: center;
 }
+
 
 .sect-black-beggar {
   background: 
