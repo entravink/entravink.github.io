@@ -56,6 +56,20 @@ p {
 /*---------------------------------------
   EFFECTS               
 -----------------------------------------*/
+/* Apply styles to the vertical slider */
+#verticalSlider {
+  writing-mode: bt-lr; /* Bottom-to-top, left-to-right */
+  transform: rotate(-90deg); /* Rotate the slider 90 degrees */
+  width: 200px; /* Set the width of the slider */
+  height: 20px; /* Set the height of the slider */
+  margin: 120px 120px 120px 0px; /* Add some margin for spacing */
+}
+
+.sliderku {
+  margin: 150px 0px 100px 0px;
+  background-color: #B08968; /* Change the track color */
+}
+
 .alertcus {
   border: 1px solid transparent;
   border-radius: 0.5rem; 
@@ -63,6 +77,10 @@ p {
 }
 
 .hidden {
+  display: none;
+}
+
+.hiddenku {
   display: none;
 }
 
