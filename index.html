@@ -1156,15 +1156,24 @@ harapan setelah mengetahuinya kita paham harus dimulai dari mana langkah penangg
                
           </div>
           <div class="row">
-               <div class="col-md-4">
+               <div class="col-md-12">
+                    <div class="about-info" data-aos="fade-up" data-aos-duration="3000">
+                         <span class="border-top"></span>
+                    </div>
+                    
+               </div>
+          </div>
+          <div class="row jumbotron" style="background-color: #242424;">
+               <div class="col-md-4" data-aos="fade-left" data-aos-duration="3000">
+                    <h3 style="text-align: center;">Slide Me!</h3>
                     <input type="range" id="slider" min="0" max="1" step="1" value="0" class="sliderku">
                     <!-- <input type="range" id="verticalSlider" min="0" max="1" step="1" value="0" orient="vertical"> -->
                     <!-- <input type="range" id="slider1" min="0" max="100" step="1">
                     <input type="range" id="slider2" min="0" max="200" step="1"> -->
-                    <h3 id="sliderValue" style="text-align: center;">Slide Me!</h3>
+                    <h3 id="sliderValue" style="text-align: center;">Pengeluaran per Kapita: <br/>0 juta </h3>
                     
                </div>
-               <div class="col-md-8">
+               <div class="col-md-8" data-aos="fade-right" data-aos-duration="3000">
                     <canvas id="graph"></canvas>
                </div>
                <div class="col-md-12">
@@ -1213,6 +1222,9 @@ harapan setelah mengetahuinya kita paham harus dimulai dari mana langkah penangg
                     // Add an event listener to the slider to call the updateChart function when it changes
                     slider.addEventListener('input', function() {
                     const sliderValue = parseInt(slider.value);
+                    const sliderValueText = document.getElementById('sliderValue');
+                    const enterKey='\n';
+                    sliderValueText.textContent = `Pengeluaran per kapita:${enterKey} ${slider.value} juta`;
                     updateChart(sliderValue);
                     });
 
@@ -1240,6 +1252,7 @@ harapan setelah mengetahuinya kita paham harus dimulai dari mana langkah penangg
                     // Add an event listener to the slider to call the showHiddenElement function when it's clicked
                     slider.addEventListener('input', showHiddenElement);
                </script>
+               
           </div>
      </div>
 </section>
