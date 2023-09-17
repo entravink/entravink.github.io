@@ -783,8 +783,8 @@ footer .copyright-text {
 .sect-black-peta {
   background: 
   linear-gradient(
-    rgba(0, 0, 0, 0.7), 
-    rgba(0, 0, 0, 0.7)
+    rgba(0, 0, 0, 0.8), 
+    rgba(0, 0, 0, 0.8)
   ),
     url('../images/peta-indo.png') 50% 0 repeat-y fixed;
   padding-top: 100px;
