@@ -16,8 +16,8 @@ function initChart2() {
             datasets: [{
                 label: 'Peluang (%)',
                 data: [0],
-                backgroundColor: 'rgba(230, 204, 178, 0.2)',
-                borderColor: 'rgba(230, 204, 178, 1)',
+                backgroundColor: 'rgba(242, 27, 63, 0.8)',
+                //borderColor: 'rgba(242, 27, 63, 1)',
                 borderWidth: 1,
                 barThickness: 40,
             }],

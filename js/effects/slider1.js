@@ -10,8 +10,8 @@ data: {
     datasets: [{
             label: 'Peluang (%)',
             data: [0],
-            backgroundColor: 'rgba(230, 204, 178, 0.2)',
-            borderColor: 'rgba(230, 204, 178, 1)',
+            backgroundColor: 'rgba(41, 191, 18, 0.8)',
+            //borderColor: 'rgba(41, 191, 18, 1)',
             borderWidth: 1,
             barThickness: 40,
     }],

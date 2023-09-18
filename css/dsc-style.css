@@ -1083,3 +1083,77 @@ footer .copyright-text {
 
 
 /* ADDITIONAL */
+
+/* Apply a fixed position to the timeline at the bottom of the page */
+.timeline {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  padding: 10px;
+  overflow-x: auto;
+  z-index: 999;
+}
+
+/* Style timeline list to look like a horizontal progress bar */
+.timeline ol {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between; /* Distribute items evenly */
+}
+
+.timeline li {
+  flex: 1; /* Each section pointer takes an equal amount of space */
+  text-align: center;
+}
+
+/* Style timeline links */
+.timeline a {
+  text-decoration: none;
+  color: #333;
+  display: block;
+  padding: 10px;
+  border-radius: 50%;
+  background-color: #ccc;
+  width: 20px;
+  height: 20px;
+  text-align: center; /* Center text horizontally and vertically */
+  position: relative; /* Needed for pseudo-elements */
+  margin-right: 10px; /* Add margin to separate links */
+}
+
+/* Add a horizontal line between timeline links */
+.timeline a::before {
+  content: '';
+  position: absolute;
+  top: 50%; /* Center vertically */
+  left: 100%; /* Position it to the right of the link */
+  width: 20px; /* Width of the line */
+  height: 2px; /* Height of the line */
+  background-color: #ccc; /* Color of the line */
+  transform: translateY(-50%); /* Center vertically */
+}
+
+/* Style the first link to hide the line before it */
+.timeline a:first-child::before {
+  display: none;
+}
+
+/* Style active timeline link */
+.timeline a.active {
+  background-color: #333;
+  color: #B08968;
+}
+
+/* Rest of your timeline styling remains the same */
+.timeline .label {
+  font-weight: bold;
+  color: #333;
+}
+
+.timeline .content {
+  color: #666;
+}
