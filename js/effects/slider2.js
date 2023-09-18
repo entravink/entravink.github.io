@@ -19,6 +19,7 @@ function initChart2() {
                 backgroundColor: 'rgba(230, 204, 178, 0.2)',
                 borderColor: 'rgba(230, 204, 178, 1)',
                 borderWidth: 1,
+                barThickness: 40,
             }],
         },
         options: {
